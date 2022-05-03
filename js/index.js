@@ -1,3 +1,5 @@
+import { DateTime } from '../node_modules/luxon/src/luxon.js';
+
 import utility from '../modules/utility.js';
 import addBook from '../modules/addBook.js';
 import renderBooks from '../modules/renderBooks.js';
@@ -12,7 +14,13 @@ const addEventListeners = () => {
   utility.navContact.addEventListener('click', (e) => switchView(e));
 };
 
+const addDate = () => {
+  const now = DateTime.now();
+  utility.dateDiv.textContent = now.toLocaleString(DateTime.DATETIME_MED);
+};
+
 addEventListeners();
+addDate();
 
 export default addEventListeners;
 
