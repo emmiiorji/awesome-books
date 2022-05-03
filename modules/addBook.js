@@ -7,6 +7,7 @@ const addBook = (e) => {
   const iauthor = document.getElementById('addAuthor').value;
   writeLocalItem('books', { title: ititle, author: iauthor });
   utility.resetForm();
+  utility.messageDisplay.innerHTML = '';
 };
 
 export default addBook;
