@@ -1,4 +1,4 @@
-# awesome-books
+# Awesome Books
 This is an app that displays the books saved locally in the browser. The user can add and delete entries made. It is a Single Page Application (SPA).
 
 ## Built With
@@ -15,10 +15,10 @@ Live demo [here](https://emmiiorji.github.io/awesome-books/)
 
 To get a local copy up and running follow these simple example steps.
 
-  1- Download files
+  1- Clone the repo
   2- Run index.html in browser
 
-To clone the repo run the line "git clone https://github.com/lucas-crodrigues/mv-awesome-books.git" on your console
+To clone the repo run the line `git clone git@github.com:emmiiorji/awesome-books.git` on your console
 
 ## Authors
 
