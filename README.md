@@ -9,11 +9,7 @@ This is an app that displays the books saved locally in the browser. The user ca
 
 ## Live Demo
 
- N/A
-
- ## Loom video
-
- N/A
+Live demo [here](https://emmiiorji.github.io/awesome-books/)
 
 ## Getting Started
 
